@@ -23,11 +23,8 @@
           --><% unless signed_in? %>, or <%= link_to 'sign in', sign_in_path %><% end %>
           to begin chating.
         </p>
-        <div class='control-group first'>
-          <%= text_field_tag :first_name, nil, placeholder: 'First name' %>
-        </div>
-        <div class='control-group last'>
-          <%= text_field_tag :last_name, nil, placeholder: 'Last name' %>
+        <div class='control-group'>
+          <%= text_field_tag :last_name, nil, placeholder: 'Name' %>
         </div>
         <div class='form-actions'>
           <%= submit_tag 'Join discussion' %>

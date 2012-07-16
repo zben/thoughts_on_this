@@ -229,10 +229,6 @@ body.discussions-show {
               margin-right: flex-gutter();
               width: flex-grid(7);
 
-              &.first {
-                display: none;
-              }
-
               input {
                 background: $bg-shade-1;
                 width: 100%;
